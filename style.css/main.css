@@ -1,0 +1,268 @@
+@font-face {
+  font-family: "Raleway";
+  src: url("../fonts/Raleway-Bold.woff2") format("woff2"),
+    url("../fonts/Raleway-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: url("../fonts/Raleway-ExtraBoldItalic.woff2") format("woff2"),
+    url("../fonts/Raleway-ExtraBoldItalic.woff") format("woff");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Rubik";
+  src: url("../fonts/Rubik-Regular.woff2") format("woff2"),
+    url("../fonts/Rubik-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Rubik";
+  src: url("../fonts/Rubik-Bold.woff2") format("woff2"),
+    url("../fonts/Rubik-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+* {
+  box-sizing: border-box;
+}
+body {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 1082px;
+  margin: 0 auto;
+}
+
+/* Total */
+a {
+  text-decoration: none;
+}
+/* /Total */
+/* 
+/* Main_section */
+.main_section {
+  height: 700px;
+  padding-top: 200px;
+}
+.main_header {
+  height: 40px;
+}
+.header_flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav_list {
+  padding: 0;
+  display: flex;
+  justify-content: space-evenly;
+  width: 500px;
+  padding-left: 200px;
+}
+.nav_item {
+  display: inline-block;
+}
+.nav_link {
+  font-size: 10px;
+  line-height: 11px;
+
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+}
+
+.info {
+  height: 395px;
+  margin-bottom: 60px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.info_text {
+  width: 497px;
+  height: 220px;
+}
+.info_title {
+  margin: 0;
+  font-size: 44px;
+
+  line-height: 55px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 700;
+}
+.blue {
+  color: #4285f4;
+}
+.info_descripe {
+  margin: 0;
+  width: 375px;
+  height: 36px;
+  margin-top: 12px;
+  margin-bottom: 24px;
+  color: #616161;
+  font-size: 12px;
+
+  line-height: 16px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+}
+
+.media {
+  width: 228px;
+  height: 44px;
+  margin-left: 70px;
+}
+.play_img {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 12px;
+}
+.media_info {
+  display: inline-block;
+  vertical-align: middle;
+}
+.media_text {
+  margin: 0;
+  margin-bottom: 5px;
+  color: #b0b0b0;
+  font-size: 13px;
+
+  line-height: 16px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+}
+.media_watch {
+  margin: 0;
+  color: black;
+  font-style: normal;
+  font-size: 9px;
+  line-height: 11px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+}
+.sign_section {
+  height: 700px;
+}
+.sign_info {
+  height: 500px;
+  margin-left: 0;
+  text-align: center;
+}
+.yellow {
+  color: #ec5863;
+}
+.sign_img {
+  margin-right: 187px;
+}
+.expert_section {
+  height: 700px;
+}
+.expert_info {
+  margin-bottom: 0;
+  height: 284px;
+}
+.statistics {
+  text-align: center;
+  width: 654px;
+  height: 117px;
+  margin-top: 103px;
+  margin-left: 249px;
+  margin-bottom: 79px;
+  border-radius: 16px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  box-shadow: 0px 2px 24px rgba(88, 126, 236, 0.15);
+}
+
+.number {
+  margin: 0;
+  color: #ec5863;
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 700;
+}
+.name {
+  margin: 0;
+  margin-top: 5px;
+  font-size: 11px;
+
+  line-height: 20px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 700;
+}
+
+.footer_section {
+  height: 700px;
+}
+.footer_header {
+  margin-top: 79px;
+  text-align: center;
+}
+.footer_descripe {
+  margin: 0;
+  width: 600px;
+  height: 36px;
+  margin-top: 12px;
+  margin-bottom: 24px;
+  margin-left: 300px;
+  color: #616161;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.footer_list {
+  padding: 0;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer_item {
+  width: 278px;
+  height: 246px;
+  display: inline-block;
+  padding-top: 36px;
+
+  box-shadow: 0px 4px 18px rgba(88, 126, 236, 0.18);
+}
+.item_title {
+  margin-top: 58px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 700;
+  color: black;
+}
+.item_description {
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  color: #616161;
+}
+
+.app {
+  margin-top: 70px;
+  padding: 0 250px;
+  display: flex;
+  justify-content: space-evenly;
+}
